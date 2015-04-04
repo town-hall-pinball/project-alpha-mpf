@@ -2,14 +2,15 @@ Plugins:
     - keyboard.Keyboard
 
 Config:
+    - no_fear/coils.yaml
+    - no_fear/flashers.yaml
+    - no_fear/lamps.yaml
+    - no_fear/switches.yaml
     - balls.yaml
-    - coils.yaml
     - display.yaml
     - flippers.yaml
     - game.yaml
     - hardware.yaml
     - images.yaml
-    - lights.yaml
     - keyboard.yaml
     - players.yaml
-    - switches.yaml
