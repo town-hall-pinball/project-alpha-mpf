@@ -1,17 +1,42 @@
 Coils:
-    flipperLeftMain:
-        number: FLLM
-        pulse_ms: 20
-    flipperLeftHold:
-        number: FLLH
-    flipperRightMain:
-        number: FLRM
-        pulse_ms: 20
-    flipperRightHold:
-        number: FLRH
-    trough_eject:
-        number: C13
-        pulse_ms: 20
-    plunger_eject:
+    drop_target_down:
         number: C08
-        pulse_ms: 20
+    drop_target_up:
+        number: C12
+    flipper_left_main:
+        number: FLLM
+    flipper_left_hold:
+        number: FLLH
+    flipper_right_main:
+        number: FLRM
+    flipper_right_hold:
+        number: FLRH
+    flipper_right_up_main:
+        number: FURM
+    flipper_right_up_hold:
+        number: FURH
+    kickback:
+        number: C04
+    knocker:
+        number: C07
+    magnet_left:
+        number: C06
+    magnet_center:
+        number: C05
+    magnet_right:
+        number: C03
+    plunger:
+        number: C02
+    popper:
+        number: C01
+    saucer:
+        number: C15
+    skull_mouth:
+        number: C16
+    slingshot_left:
+        number: C11
+    slingshot_right:
+        number: C10
+    trough:
+        number: C14
+
