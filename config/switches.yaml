@@ -1,34 +1,138 @@
 Switches:
-    leftFlipperButton:
+    ball_launch_button:
+        number: S11
+    buy_extra_ball_button:
+        number: S23
+    coin_chute_left:
+        number: SD1
+    coin_chute_center:
+        number: SD2
+    coin_chute_right:
+        number: SD3
+    coin_chute_fourth:
+        number: SD4
+    coin_door_closed:
+        number: S22
+    drop_target:
+        number: S51
+        tags: playfield_active
+    flipper_button_left:
         number: SF4
-    rightFlipperButton:
+    flipper_button_right:
         number: SF6
-    trough1:
-        number: S81
+    #flipperRightUp: SF6
+    kickback:
+        number: S25
+        tags: playfield_active
+    magnet_left:
+        number: S46
         type: NC
-    trough2:
-        number: S82
+        tags: playfield_active
+    magnet_center:
+        number: S47
         type: NC
-    trough3:
-        number: S83
+        tags: playfield_active
+    magnet_right:
+        number: S48
         type: NC
-    trough4:
-        number: S84
-        type: NC
-    trough5:
-        number: S85
-        type: NC
-    trough6:
-        number: S86
-        type: NC
-    troughJam:
-        number: S87
-        type: NC
-    plungerLane:
+        tags: playfield_active
+    orbit_left:
+        number: S62
+        tags: playfield_active
+    orbit_right:
+        number: S58
+        tags: playfield_active
+    outlane_right:
+        number: S17
+        tags: playfield_active
+    popper:
         number: S41
-    start:
+        type: NC
+    popper_next:
+        number: S42
+        type: NC
+    ramp_left_enter:
+        number: S63
+        tags: playfield_active
+    ramp_left_middle:
+        number: S64
+        tags: playfield_active
+    ramp_right_enter:
+        number: S66
+        tags: playfield_active
+    ramp_right_exit:
+        number: S67
+        tags: playfield_active
+    return_left:
+        number: S18
+        tags: playfield_active
+    return_right:
+        number: S18
+        tags: playfield_active
+    saucer:
+        number: S61
+        tags: playfield_active
+    service_down:
+        number: SD6
+    service_enter:
+        number: SD8
+    service_down:
+        number: SD6
+    service_up:
+        number: SD7
+    service_exit:
+        number: SD5
+    shooter_lane:
+        number: S15
+    slingshot_left:
+        number: S27
+        tags: playfield_active
+    slingshot_right:
+        number: S28
+        tags: playfield_active
+    spinner:
+        number: S16
+        tags: playfield_active
+    standup_target_top:
+        number: S57
+        tags: playfield_active
+    standup_target_bottom:
+        number: S56
+        tags: playfield_active
+    start_button:
         number: S13
         tags: start
-    plungerLaunch:
-        number: S12
-        tags: launch
+    subway_left:
+        number: S38
+        type: NC
+        tags: playfield_active
+    subway_center:
+        number: S37
+        type: NC
+        tags: playfield_active
+    tilt_plumb:
+        number: S14
+    tilt_slam:
+        number: S21
+    trough_1:
+        number: S32
+        type: NC
+    trough_2:
+        number: S33
+        type: NC
+    trough_3:
+        number: S34
+        type: NC
+    trough_4:
+        number: S35
+        type: NC
+    trough_jam:
+        number: S31
+        type: NC
+    u_turn:
+        number: S55
+        tags: playfield_active
+    wireform_left:
+        number: S54
+        tags: playfield_active
+

@@ -9,9 +9,9 @@ Coils:
         pulse_ms: 20
     flipperRightHold:
         number: FLRH
-    troughEject:
+    trough_eject:
         number: C13
         pulse_ms: 20
-    plungerEject:
+    plunger_eject:
         number: C08
         pulse_ms: 20
