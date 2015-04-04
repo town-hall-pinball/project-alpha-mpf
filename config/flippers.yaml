@@ -1,0 +1,9 @@
+Flippers:
+    leftFlipper:
+        main_coil: flipperLeftMain
+        hold_coil: flipperLeftHold
+        activation_switch: leftFlipperButton
+    rightFlipper:
+        main_coil: flipperRightMain
+        hold_coil: flipperRightHold
+        activation_switch: rightFlipperButton

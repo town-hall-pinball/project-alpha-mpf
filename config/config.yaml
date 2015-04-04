@@ -1,0 +1,15 @@
+Plugins:
+    - keyboard.Keyboard
+
+Config:
+    - balls.yaml
+    - coils.yaml
+    - display.yaml
+    - flippers.yaml
+    - game.yaml
+    - hardware.yaml
+    - images.yaml
+    - lights.yaml
+    - keyboard.yaml
+    - players.yaml
+    - switches.yaml

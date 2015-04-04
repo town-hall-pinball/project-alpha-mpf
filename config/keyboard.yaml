@@ -1,0 +1,30 @@
+Keyboard:
+    z:
+        switch: leftFlipperButton
+    /:
+        switch: rightFlipperButton
+    1:
+        switch: trough1
+        toggle: true
+    2:
+        switch: trough2
+        toggle: true
+    3:
+        switch: trough3
+        toggle: true
+    4:
+        switch: trough4
+        toggle: true
+    5:
+        switch: trough5
+        toggle: true
+    6:
+        switch: trough6
+        toggle: true
+    p:
+        switch: plungerLane
+        toggle: true
+    s:
+        switch: start
+    L:
+        switch: plungerLaunch

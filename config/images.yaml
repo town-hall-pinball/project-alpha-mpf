@@ -1,0 +1,11 @@
+Images:
+    proc:
+        file: p-roc.dmd
+        alpha_color: 0
+        target: dmd
+    thp_title:
+        file: thp_title.png
+        alpha_color: 0
+        target: dmd
+    thp_logo:
+        file: thp_logo.png

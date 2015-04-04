@@ -1,0 +1,9 @@
+Machine:
+    HZ: 60
+    Balls Installed: 4
+    Min Balls: 0
+    Max Balls: 4
+
+Hardware:
+    Platform: p_roc
+    DriverBoards: wpc

@@ -1,0 +1,26 @@
+MatrixLights:
+    circle_01:
+        number: L26
+    circle_02:
+        number: L25
+    circle_03:
+        number: L24
+    circle_04:
+        number: L23
+    circle_05:
+        number: L22
+    circle_06:
+        number: L11
+    circle_07:
+        number: L12
+    circle_08:
+        number: L13
+    circle_09:
+        number: L14
+    circle_10:
+        number: L15
+    circle_11:
+        number: L16
+    circle_12:
+        number: L18
+

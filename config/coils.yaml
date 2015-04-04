@@ -1,0 +1,17 @@
+Coils:
+    flipperLeftMain:
+        number: FLLM
+        pulse_ms: 20
+    flipperLeftHold:
+        number: FLLH
+    flipperRightMain:
+        number: FLRM
+        pulse_ms: 20
+    flipperRightHold:
+        number: FLRH
+    troughEject:
+        number: C13
+        pulse_ms: 20
+    plungerEject:
+        number: C08
+        pulse_ms: 20

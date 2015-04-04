@@ -1,0 +1,34 @@
+Switches:
+    leftFlipperButton:
+        number: SF4
+    rightFlipperButton:
+        number: SF6
+    trough1:
+        number: S81
+        type: NC
+    trough2:
+        number: S82
+        type: NC
+    trough3:
+        number: S83
+        type: NC
+    trough4:
+        number: S84
+        type: NC
+    trough5:
+        number: S85
+        type: NC
+    trough6:
+        number: S86
+        type: NC
+    troughJam:
+        number: S87
+        type: NC
+    plungerLane:
+        number: S41
+    start:
+        number: S13
+        tags: start
+    plungerLaunch:
+        number: S12
+        tags: launch

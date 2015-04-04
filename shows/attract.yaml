@@ -1,0 +1,38 @@
+- tocks: 3
+  display:
+      - type: Image
+        image: proc
+        v_pos: center
+        h_pos: center
+
+- tocks: 3
+  display:
+      - type: Image
+        image: thp_title
+        v_pos: center
+        h_pos: center
+
+- tocks: 3
+  display:
+      - type: Text
+        text: PRESENTS
+        v_pos: center
+        h_pos: center
+
+- tocks: 6
+  display:
+      - type: Text
+        text: PROJECT ALPHA
+        v_pos: center
+        h_pos: center
+        transition:
+            type: move_in
+            duration: 1s
+            direction: right
+
+- tocks: 6
+  display:
+      - type: Text
+        text: GAME OVER
+        v_pos: center
+        h_pos: center
