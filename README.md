@@ -68,6 +68,7 @@ Wait for the command to complete, and run the software as follows:
 vagrant ssh
 pingame -x
 ```
+
 A dot-matrix display should appear.
 
 ## Contact
