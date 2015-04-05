@@ -25,12 +25,21 @@ set -x
 NAME="project-alpha"
 
 apt-get update
-apt-get install -y curl git python-yaml
+apt-get install -y curl git
 
 git clone https://github.com/town-hall-pinball/PinOS.git
 PinOS/ext/download-dependencies
 PinOS/ext/install-run-dependencies
 
-sudo -u vagrant git clone https://github.com/missionpinball/mpf.git
-sudo -u vagrant ln -s /vagrant mpf/machine_files/$NAME
+cat > /etc/default/pingame <<EOF
+GAME=$NAME
+EOF
 
+chown vagrant:vagrant /opt
+cd /opt
+if [ ! -d mpf ] ; then
+    sudo -u vagrant git clone https://github.com/missionpinball/mpf.git
+fi
+if [ ! -d mpf/machine_files/$NAME ] ; then
+    sudo -u vagrant ln -s /vagrant mpf/machine_files/$NAME
+fi
