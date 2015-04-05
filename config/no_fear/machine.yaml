@@ -1,7 +1,8 @@
 Machine:
     HZ: 60
     Balls Installed: 4
-    Min Balls: 1
+    Min Balls: 0 # Allow game to start without any balls in the trough
+    # Min Balls: 1
     Max Balls: 4
 
 Hardware:

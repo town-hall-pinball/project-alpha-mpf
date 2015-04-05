@@ -18,40 +18,24 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-BallDevices:
-    trough:
-        tags: trough, home, drain
-        label: Trough
-        ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_jam
-        entrance_count_delay: 0.5s
-        eject_coil: c_trough
-        confirm_eject_type: target
-        eject_targets: shooter_lane
-        jam_switch: s_trough_jam
+SoundSystem:
+    tracks:
+        voice:
+            volume: 1
+            priority: 2
+            simultaneous_sounds: 1
+            preload: no
+        sfx:
+            volume: 1
+            priority: 1
+            preload: no
+            simultaneous_sounds: 3
+    stream:
+        name: music
+        priority: 0
 
-    shooter_lane:
-        tags: ball_add_live
-        label: Shooter Lane
-        ball_switches: s_shooter_lane
-        entrance_count_delay: 0.3s
-        eject_coil: c_plunger
-        confirm_eject_type: playfield
-
-    popper:
-        label: Popper
-        ball_switches: s_popper
-        entrance_count_delay: 0.5s
-        eject_coil: c_popper
-        confirm_eject_type: playfield
-
-    saucer:
-        label: Saucer
-        ball_switches: s_saucer
-        entrance_count_delay: 1s
-        eject_coil: c_saucer
-        confirm_eject_type: playfield
-
-
-
-
-
+    buffer: 512
+    frequency: 44100
+    channels: 1
+    initial_volume: 1
+    volume_steps: 20

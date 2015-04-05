@@ -1,11 +1,13 @@
 Plugins:
     - keyboard.Keyboard
+    - sound.SoundController
 
 Config:
     - no_fear/ball_devices.yaml
     - no_fear/coils.yaml
     - no_fear/flashers.yaml
     - no_fear/flippers.yaml
+    - no_fear/gi.yaml
     - no_fear/lamps.yaml
     - no_fear/machine.yaml
     - no_fear/switches.yaml
@@ -13,4 +15,6 @@ Config:
     - game.yaml
     - images.yaml
     - keyboard.yaml
+    - modes.yaml
     - players.yaml
+    - sound_system.yaml

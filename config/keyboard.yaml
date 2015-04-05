@@ -1,3 +1,9 @@
 Keyboard:
     s:
         switch: s_start_button
+    l:
+        switch: s_ball_launch_button
+    1:
+        switch: s_trough_1
+    q:
+        switch: s_shooter_lane

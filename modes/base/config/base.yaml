@@ -18,40 +18,52 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-BallDevices:
-    trough:
-        tags: trough, home, drain
-        label: Trough
-        ball_switches: s_trough_1, s_trough_2, s_trough_3, s_trough_4, s_trough_jam
-        entrance_count_delay: 0.5s
-        eject_coil: c_trough
-        confirm_eject_type: target
-        eject_targets: shooter_lane
-        jam_switch: s_trough_jam
+Mode:
+    start_events: ball_starting
+    priority: 100
 
-    shooter_lane:
-        tags: ball_add_live
-        label: Shooter Lane
-        ball_switches: s_shooter_lane
-        entrance_count_delay: 0.3s
-        eject_coil: c_plunger
-        confirm_eject_type: playfield
+SlidePlayer:
+    player_score:
+      - type: Text
+        text: "%value"
+        number_grouping: true
+        v_pos: center
+      - type: Text
+        text: PLAYER %number%
+        v_pos: bottom
+        h_pos: left
+        font: small
+      - type: Text
+        text: BALL %ball%
+        v_pos: bottom
+        h_pos: right
+        font: small
 
-    popper:
-        label: Popper
-        ball_switches: s_popper
-        entrance_count_delay: 0.5s
-        eject_coil: c_popper
-        confirm_eject_type: playfield
+    mode_base_started:
+      - type: Text
+        text: "%score%"
+        number_grouping: true
+        double_zeros: true
+        v_pos: center
+      - type: Text
+        text: PLAYER %number%
+        v_pos: bottom
+        h_pos: left
+        font: small
+      - type: Text
+        text: BALL %ball%
+        v_pos: bottom
+        h_pos: right
+        font: small
 
-    saucer:
-        label: Saucer
-        ball_switches: s_saucer
-        entrance_count_delay: 1s
-        eject_coil: c_saucer
-        confirm_eject_type: playfield
-
-
-
-
-
+SoundPlayer:
+    Shooter Lane:
+        sound: introduction
+        start_events: mode_base_started
+        stop_events: sw_plunger
+        loops: -1
+    Background:
+        start_events: sw_plunger
+        stop_events: mode_base_stopping
+        sound: background
+        loops: -1

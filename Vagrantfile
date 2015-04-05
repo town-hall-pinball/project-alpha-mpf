@@ -35,6 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       vb.name = "project-alpha"
       vb.gui = true
       vb.memory = 1024
+      vb.cpus = "1"
       if Vagrant::Util::Platform.windows?
           vb.customize ["modifyvm", :id, "--audio", "dsound",
                         "--audiocontroller", "ac97"]

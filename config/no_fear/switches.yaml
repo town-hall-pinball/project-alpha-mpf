@@ -21,6 +21,7 @@
 Switches:
     s_ball_launch_button:
         number: S11
+        tags: plunger
     s_buy_extra_ball_button:
         number: S23
     s_coin_chute_left:
@@ -36,9 +37,9 @@ Switches:
     s_drop_target:
         number: S51
         tags: playfield_active
-    s_flipper_button_left:
+    s_flipper_left_button:
         number: SF4
-    s_flipper_button_right:
+    s_flipper_right_button:
         number: SF6
     #flipperRightUp: SF6
     s_kickback:
