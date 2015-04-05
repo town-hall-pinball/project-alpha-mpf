@@ -1,21 +1,21 @@
 Plugins:
     - keyboard.Keyboard
     - sound.SoundController
-    - debug_dmd.DebugDMD
+#    - debug_dmd.DebugDMD
 
 Config:
-    - no_fear/ball_devices.yaml
-    - no_fear/coils.yaml
-    - no_fear/flashers.yaml
-    - no_fear/flippers.yaml
-    - no_fear/gi.yaml
-    - no_fear/lamps.yaml
-    - no_fear/machine.yaml
-    - no_fear/switches.yaml
+    - ball_devices.yaml
+    - coils.yaml
     - display.yaml
+    - flashers.yaml
+    - flippers.yaml
     - game.yaml
+    - gi.yaml
     - images.yaml
     - keyboard.yaml
+    - lamps.yaml
+    - machine.yaml
     - modes.yaml
     - players.yaml
     - sound_system.yaml
+    - switches.yaml
