@@ -47,24 +47,16 @@ broken at anytime.
 
 Setup a development environment as follows:
 
-Open a terminal (open Cygwin in Windows):
+Open a terminal (open Cygwin in Windows) and clone the repository:
 
 ```bash
 mkdir town-hall-pinball
 cd town-hall-pinball
-```
-
-If you are not contributing back to the repositories or prefer to use https:
-```bash
 git clone https://github.com/town-hall-pinball/project-alpha.git
 ```
 
-Otherwise, register your SSH key and:
-```bash
-git clone git@github.com:town-hall-pinball/project-alpha.git
-```
+Initialize the virtual machine with:
 
-Then:
 ``` bash
 cd project-alpha
 vagrant up
@@ -74,7 +66,7 @@ Wait for the command to complete, and run the software as follows:
 
 ```bash
 vagrant ssh
-TODO
+pingame -x
 ```
 A dot-matrix display should appear.
 
