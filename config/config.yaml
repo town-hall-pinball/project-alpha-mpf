@@ -1,6 +1,7 @@
 Plugins:
     - keyboard.Keyboard
     - sound.SoundController
+    - debug_dmd.DebugDMD
 
 Config:
     - no_fear/ball_devices.yaml
