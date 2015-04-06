@@ -67,3 +67,11 @@ SoundPlayer:
         stop_events: mode_base_stopping
         sound: background
         loops: -1
+
+Sounds:
+    background:
+        file: background.ogg
+        track: music
+        start_time: 2.25
+
+
