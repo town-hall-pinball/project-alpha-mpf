@@ -72,6 +72,6 @@ Sounds:
     background:
         file: background.ogg
         track: music
-        start_time: 2.25
+        start_time: 2.25s
 
 
