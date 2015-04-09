@@ -60,10 +60,10 @@ SoundPlayer:
     Shooter Lane:
         sound: introduction
         start_events: mode_base_started
-        stop_events: sw_plunger
+        stop_events: introduction_stop
         loops: -1
     Background:
-        start_events: sw_plunger
+        start_events: introduction_stop
         stop_events: mode_base_stopping
         sound: background
         loops: -1
@@ -77,5 +77,14 @@ Sounds:
         file: introduction.ogg
         track: music
         start_time: 0.5s
+
+LogicBlocks:
+    Counters:
+        plunge_ball:
+            count_events: sw_plunger
+            count_complete_value: 1
+            events_when_complete: introduction_stop
+            reset_each_ball: true
+
 
 

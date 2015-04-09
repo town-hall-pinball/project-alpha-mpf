@@ -1,6 +1,9 @@
 Keyboard:
-    s:
+    shift-s:
         switch: s_start_button
+    s:
+        switch: s_saucer
+        toggle: True
     l:
         switch: s_ball_launch_button
     1:

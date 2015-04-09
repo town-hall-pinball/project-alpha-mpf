@@ -1,5 +1,6 @@
 Plugins:
     - keyboard.Keyboard
+    - logic_blocks.LogicBlocks
     - sound.SoundController
 
 Config:
