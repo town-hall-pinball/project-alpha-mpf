@@ -1,8 +1,6 @@
 Plugins:
     - keyboard.Keyboard
     - sound.SoundController
-#    - osc.OSC
-#    - debug_dmd.DebugDMD
 
 Config:
     - ball_devices.yaml

@@ -73,5 +73,9 @@ Sounds:
         file: background.ogg
         track: music
         start_time: 2.25s
+    introduction:
+        file: introduction.ogg
+        track: music
+        start_time: 0.5s
 
 
