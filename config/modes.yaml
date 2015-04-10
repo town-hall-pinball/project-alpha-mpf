@@ -24,5 +24,7 @@ Modes:
   - magnet_assist
 
 Scriptlets:
+  attract.Attract
   gravity_assist.GravityAssist
+
 
