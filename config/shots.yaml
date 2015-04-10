@@ -18,28 +18,6 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-ShowPlayer:
-    machineflow_Attract_start:
-        - show: attract
-          repeat: yes
-          tocks_per_sec: 1
-        - show: attract_light
-          repeat: yes
-          tocks_per_sec: 2
-    machineflow_Attract_stop:
-        - show: attract
-          action: stop
-
-SlidePlayer:
-    machineflow_Attract_start:
-        type: Text
-        text: PRESS START
-    ball_live_added:
-        type: Text
-        text: BALL LIVE!
-    ball_started:
-        type: Text
-        text: PLAYER %player BALL %ball
-    player_add_success:
-        type: Text
-        text: PLAYER %num ADDED
+Shots:
+    slingshot:
+        Switch: s_slingshot_left, s_slingshot_right
