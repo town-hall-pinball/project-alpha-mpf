@@ -22,6 +22,9 @@ Mode:
     start_events: ball_starting
     priority: 100
 
+Config:
+    - scoring.yaml
+
 SlidePlayer:
     player_score:
       - type: Text
@@ -86,9 +89,6 @@ LogicBlocks:
             events_when_complete: introduction_stop
             reset_each_ball: true
 
-Scoring:
-    shot_slingshot:
-        Score: 10
 
 
 

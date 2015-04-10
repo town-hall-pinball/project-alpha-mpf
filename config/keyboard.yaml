@@ -36,20 +36,34 @@ Keyboard:
         switch: s_flipper_left_button
     rightbracket:
         switch: s_flipper_right_button
-    shift-comma:
-        switch: s_slingshot_left
-    shift-period:
-        switch: s_slingshot_right
+
     shift-1:
         switch: s_trough_1
         toggle: yes
         start_active: True
+
+    shift-t:
+        switch: s_tilt_plumb
+
+    shift-comma:
+        switch: s_slingshot_left
+    shift-period:
+        switch: s_slingshot_right
+
+
     ctrl-q:
         switch: s_magnet_left
     ctrl-w:
         switch: s_magnet_center
     ctrl-e:
         switch: s_magnet_right
+    ctrl-a:
+        switch: s_return_right
+    ctrl-s:
+        switch: s_outlane_right
+
+    shift-cttl-t:
+        switch: s_tilt_slam
 
 
 

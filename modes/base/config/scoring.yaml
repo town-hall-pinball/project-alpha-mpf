@@ -18,19 +18,14 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-Shots:
-    inlane:
-        Switch: s_return_left, s_return_right
-    orbit_left:
-        Switch: s_orbit_left
-    orbit_inner:
-        Switch: s_uturn
-    orbit_right:
-        Switch: s_orbit_right
-    outlane:
-        Switch: s_outlane_right, s_kickback
-    slingshot:
-        Switch: s_slingshot_left, s_slingshot_right
-    spinner:
-        Switch: s_spinner
-
+Scoring:
+    shot_slingshot:
+        Score: 10
+    shot_inlane:
+        Score: 100
+    shot_orbit_left:
+        Score: 2000
+    shot_orbit_right:
+        Score: 2000
+    shot_outlane:
+        Score: 1000
