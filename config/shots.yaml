@@ -19,5 +19,10 @@
 # DEALINGS IN THE SOFTWARE.
 
 Shots:
+    orbit_inner:
+        Switch: s_uturn
     slingshot:
         Switch: s_slingshot_left, s_slingshot_right
+    spinner:
+        Switch: s_spinner
+

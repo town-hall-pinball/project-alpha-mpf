@@ -26,10 +26,12 @@ Keyboard:
         toggle: True
     l:
         switch: s_ball_launch_button
+    i:
+        switch: s_uturn
     1:
         switch: s_trough_1
     q:
-        switch: s_shooter_lane
+        switch: s_spinner
     leftbracket:
         switch: s_flipper_left_button
     rightbracket:

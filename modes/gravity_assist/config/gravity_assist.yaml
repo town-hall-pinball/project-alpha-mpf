@@ -18,10 +18,20 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-Modes:
-  - base
-  - gravity_assist
+Mode:
+    start_events: ball_starting
+    priority: 200
 
-Scriptlets:
-  gravity_assist.GravityAssist
+SlidePlayer:
+    gravity_assist:
+      - type: Text
+        text: "GRAVITY ASSIST"
+        v_pos: top
+        y: 3
+      - type: Text
+        text: "%spinner_multiplier%X"
+        v_pos: bottom
+        y: -3
+        expire: 2s
+
 
