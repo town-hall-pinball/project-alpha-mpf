@@ -27,8 +27,8 @@ Plugins:
     - shots.ShotController
 
 Config:
-    - ball_devices.yaml
     - coils.yaml
+    - devices.yaml
     - display.yaml
     - flashers.yaml
     - flippers.yaml

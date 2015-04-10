@@ -52,6 +52,13 @@ BallDevices:
         confirm_eject_type: playfield
 
 
+DropTargets:
+    drop_target:
+        switch: s_drop_target
+        reset_coil: c_drop_target_up
+        knockdown_coil: c_drop_target_down
+
+
 
 
 
