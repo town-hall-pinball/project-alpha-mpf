@@ -23,9 +23,6 @@ ShowPlayer:
         - show: attract
           repeat: yes
           tocks_per_sec: 1
-        - show: attract_light
-          repeat: yes
-          tocks_per_sec: 2
     machineflow_Attract_stop:
         - show: attract
           action: stop

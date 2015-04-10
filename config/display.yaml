@@ -69,12 +69,12 @@ Window:
       h_pos: center
       color: aaaaaa
 
-#    - type: Image
-#      image: thp_logo
-#      h_pos: left
-#      v_pos: top
-#      y: 10
-#      x: 20
+    - type: Image
+      image: thp_logo
+      h_pos: left
+      v_pos: top
+      y: 10
+      x: 20
 
 
 
