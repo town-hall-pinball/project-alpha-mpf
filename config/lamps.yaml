@@ -142,3 +142,15 @@ MatrixLights:
     l_uturn_right_arrow:
         number: L32
 
+
+GIs:
+    gi_playfield_top:
+        number: G01
+    gi_playfield_right:
+        number: G02
+    gi_playfield_left:
+        number: G03
+    gi_insert_title:
+        number: G04
+    gi_insert_background:
+        number: G05

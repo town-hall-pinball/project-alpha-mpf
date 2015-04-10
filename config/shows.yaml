@@ -18,22 +18,22 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-Machine:
-    HZ: 60
-    Balls Installed: 4
-    Min Balls: 0 # Allow game to start without any balls in the trough
-    # Min Balls: 1
-    Max Balls: 4
-
-Game:
-    Balls per game: 3
-    Max players per game: 4
-    player_controlled_eject_tag: plunger
-
-Hardware:
-    Platform: p_roc
-    DriverBoards: wpc
-
-MPF:
-    default_pulse_ms: 20
+ShowPlayer:
+    machineflow_Attract_start:
+        - show: attract
+          repeat: yes
+          tocks_per_sec: 1
+        - show: attract_circle_sweep
+          repeat: yes
+          tocks_per_sec: 1
+        - show: attract_lane_sweep
+          repeat: yes
+          tocks_per_sec: 1
+    machineflow_Attract_stop:
+        - show: attract
+          action: stop
+        - show: attract_circle_sweep
+          action: stop
+        - show: attract_lane_sweep
+          action: stop
 

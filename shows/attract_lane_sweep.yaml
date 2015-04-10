@@ -18,7 +18,27 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-Game:
-    Balls per game: 3
-    Max players per game: 4
-    player_controlled_eject_tag: plunger
+- tocks: 1
+  lights:
+    l_outlane_left: ff
+- tocks: 1
+  lights:
+    l_inlane_left: ff
+- tocks: 1
+  lights:
+    l_inlane_right: ff
+- tocks: 3
+  lights:
+    l_outlane_right: ff
+- tocks: 1
+  lights:
+    l_outlane_left: 0
+- tocks: 1
+  lights:
+    l_inlane_left: 0
+- tocks: 1
+  lights:
+    l_inlane_right: 0
+- tocks: 3
+  lights:
+    l_outlane_right: 0

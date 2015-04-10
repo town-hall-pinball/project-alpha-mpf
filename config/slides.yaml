@@ -18,15 +18,6 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-ShowPlayer:
-    machineflow_Attract_start:
-        - show: attract
-          repeat: yes
-          tocks_per_sec: 1
-    machineflow_Attract_stop:
-        - show: attract
-          action: stop
-
 SlidePlayer:
     machineflow_Attract_start:
         type: Text

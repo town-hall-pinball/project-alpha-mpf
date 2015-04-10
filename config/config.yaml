@@ -27,19 +27,18 @@ Plugins:
     - shots.ShotController
 
 Config:
+    - audio.yaml
     - coils.yaml
     - devices.yaml
     - display.yaml
     - flashers.yaml
     - flippers.yaml
-    - game.yaml
-    - gi.yaml
     - images.yaml
     - keyboard.yaml
     - lamps.yaml
     - machine.yaml
     - modes.yaml
-    - players.yaml
-    - sound_system.yaml
     - shots.yaml
+    - shows.yaml
+    - slides.yaml
     - switches.yaml

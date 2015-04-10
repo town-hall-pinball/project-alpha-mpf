@@ -18,14 +18,51 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-GIs:
-    gi_playfield_top:
-        number: G01
-    gi_playfield_right:
-        number: G02
-    gi_playfield_left:
-        number: G03
-    gi_insert_title:
-        number: G04
-    gi_insert_background:
-        number: G05
+- tocks: 1
+  lights:
+    l_circle_1: ff
+    l_circle_7: 0
+- tocks: 1
+  lights:
+    l_circle_2: ff
+    l_circle_8: 0
+- tocks: 1
+  lights:
+    l_circle_3: ff
+    l_circle_9: 0
+- tocks: 1
+  lights:
+    l_circle_4: ff
+    l_circle_10: 0
+- tocks: 1
+  lights:
+    l_circle_5: ff
+    l_circle_11: 0
+- tocks: 1
+  lights:
+    l_circle_6: ff
+    l_circle_12: 0
+- tocks: 1
+  lights:
+    l_circle_7: ff
+    l_circle_1: 0
+- tocks: 1
+  lights:
+    l_circle_8: ff
+    l_circle_2: 0
+- tocks: 1
+  lights:
+    l_circle_9: ff
+    l_circle_3: 0
+- tocks: 1
+  lights:
+    l_circle_10: ff
+    l_circle_4: 0
+- tocks: 1
+  lights:
+    l_circle_11: ff
+    l_circle_5: 0
+- tocks: 1
+  lights:
+    l_circle_12: ff
+    l_circle_6: 0
