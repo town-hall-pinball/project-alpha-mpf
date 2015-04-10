@@ -18,11 +18,26 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-Modes:
-  - base
-  - gravity_assist
-  - magnet_assist
+Mode:
+    start_events: ball_starting
+    priority: 200
 
-Scriptlets:
-  gravity_assist.GravityAssist
-
+AutoFire Coils:
+    Left Magnet:
+        switch: s_magnet_left
+        coil: c_magnet_left
+        coil_action_ms: 1000
+        pwn_on_ms: 1
+        pwn_off_ms: 1
+    Center Magnet:
+        switch: s_magnet_center
+        coil: c_magnet_center
+        coil_action_ms: 1000
+        pwn_on_ms: 1
+        pwn_off_ms: 1
+    Right Magnet:
+        switch: s_magnet_right
+        coil: c_magnet_right
+        coil_action_ms: 1000
+        pwn_on_ms: 1
+        pnw_off_ms: 1

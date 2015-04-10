@@ -44,5 +44,13 @@ Keyboard:
         switch: s_trough_1
         toggle: yes
         start_active: True
+    ctrl-q:
+        switch: s_magnet_left
+    ctrl-w:
+        switch: s_magnet_center
+    ctrl-e:
+        switch: s_magnet_right
+
+
 
 
