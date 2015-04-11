@@ -31,3 +31,23 @@ SlidePlayer:
     player_add_success:
         type: Text
         text: PLAYER %num ADDED
+    simulator_start:
+        type: Text
+        text: SIMULATOR ON
+        #font: small
+        #opaque: False
+        slide_name: simulator_status
+        clear_slide: True
+        slide_priority: 300
+        expire: 2s
+    simulator_stop:
+        type: Text
+        text: SIMULATOR OFF
+        #font: small
+        #opaque: False
+        slide_name: simulator_status
+        clear_slide: True
+        slider_priority: 300
+        expire: 2s
+
+

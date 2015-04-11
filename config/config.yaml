@@ -25,6 +25,7 @@ Plugins:
     - scoring.ScoreController
     - sound.SoundController
     - shots.ShotController
+    - simulator.Simulator
 
 Config:
     - audio.yaml

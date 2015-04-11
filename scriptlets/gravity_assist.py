@@ -36,8 +36,8 @@ class GravityAssist(Scriptlet):
         self.machine.game.player.spinner_multiplier = 1
 
     def stop(self, *args, **kwargs):
-        self.machine.events.remove_handler("shot_orbit_inner", self.inner_orbit)
-        self.machine.events.remove_handler("shot_spinner", self.spinner)
+        self.machine.events.remove_handler(self.inner_orbit)
+        self.machine.events.remove_handler(self.spinner)
 
     def inner_orbit(self, *args, **kwargs):
         if self.machine.game.player.spinner_multiplier < 10:

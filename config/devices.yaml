@@ -52,6 +52,15 @@ BallDevices:
         confirm_eject_type: playfield
 
 
+Simulator:
+    ball_devices:
+        - trough
+        - shooter_lane
+    initial_balls:
+        trough: 3
+    playfield_switch: s_slingshot_left
+
+
 DropTargets:
     drop_target:
         switch: s_drop_target
