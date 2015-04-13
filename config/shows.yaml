@@ -23,12 +23,15 @@ ShowPlayer:
         - show: attract
           repeat: yes
           tocks_per_sec: 1
+#        - show: all
+#          repeat: yes
+#          tocks_per_sec: 2.5
         - show: attract_circle_sweep
           repeat: yes
-          tocks_per_sec: 1
+          tocks_per_sec: 5
         - show: attract_lane_sweep
           repeat: yes
-          tocks_per_sec: 1
+          tocks_per_sec: 5
     machineflow_Attract_stop:
         - show: attract
           action: stop

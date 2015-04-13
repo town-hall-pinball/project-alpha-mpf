@@ -18,61 +18,52 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
-Coils:
-    c_drop_target_down:
-        number: C08
-    c_drop_target_up:
-        number: C12
-    c_flipper_left_main:
-        number: FLLM
-        pulse_ms: 30
-    c_flipper_left_hold:
-        number: FLLH
-    c_flipper_right_main:
-        number: FLRM
-        pulse_ms: 30
-    c_flipper_right_hold:
-        number: FLRH
-    c_flipper_right_upper_main:
-        number: FURM
-    c_flipper_right_upper_hold:
-        number: FURH
-    c_kickback:
-        number: C04
-    c_knocker:
-        number: C07
-    c_magnet_left:
-        number: C06
-    c_magnet_center:
-        number: C05
-    c_magnet_right:
-        number: C03
-    c_plunger:
-        number: C02
-    c_popper:
-        number: C01
-    c_saucer:
-        number: C15
-    c_skull_mouth:
-        number: C16
-    c_slingshot_left:
-        number: C11
-    c_slingshot_right:
-        number: C10
-    c_trough:
-        number: C14
+Window:
+    width: 600
+    height: 450
+    title: Project Alpha
+    resizable: yes
+    frame: yes
+    fullscreen: no
+    fps: auto
+    quit_on_close: True
+    elements:
 
+    - type: VirtualDMD
+      width: 512
+      height: 128
+      h_pos: center
+      v_pos: center
+      pixel_color: ff6600
+      dark_color: 220000
+      layer: 1
+      pixel_spacing: 2
 
-Autofire Coils:
-    slingshot_left:
-        coil: c_slingshot_left
-        switch: s_slingshot_left
-        pulse_ms: 30
-    slingshot_right:
-        coil: c_slingshot_right
-        switch: s_slingshot_right
-        pulse_ms: 30
+    - type: Text
+      font: tall title
+      text: Project Alpha
+      h_pos: right
+      v_pos: bottom
+      y: -10
+      x: -20
+      size: 60
+      antialias: yes
+      layer: 1
+      color: ee9900
 
+    - type: Shape
+      shape: box
+      width: 516
+      height: 132
+      layer: 2
+      thickness: 2
+      v_pos: center
+      h_pos: center
+      color: aaaaaa
 
-
-
+    - type: Image
+      image: thp_logo
+      h_pos: left
+      v_pos: top
+      y: 10
+      x: 20
