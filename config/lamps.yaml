@@ -105,6 +105,10 @@ MatrixLights:
         number: L64
     l_ramp_right_circle_3:
         number: L65
+    l_saucer_arrow_1:
+        number: L61
+    l_saucer_arrow_2:
+        number: L62
     l_scoop_left_arrow_1:
         number: L45
     l_scoop_left_arrow_2:
@@ -123,19 +127,19 @@ MatrixLights:
         number: L35
     l_shoot_again:
         number: L81
-    l_skull_eye_left:
-        number: L82
-    l_skull_eye_right:
-        number: L85
     l_standup_target_top:
         number: L71
     l_standup_target_bottom:
         number: L72
+    l_toy_left:
+        number: L82
+    l_toy_right:
+        number: L85
     l_uturn_left_arrow:
         number: L41
     l_uturn_left_circle_1:
         number: L42
-    l_uturn_left_ciricle_2:
+    l_uturn_left_circle_2:
         number: L43
     l_uturn_left_circle_3:
         number: L44

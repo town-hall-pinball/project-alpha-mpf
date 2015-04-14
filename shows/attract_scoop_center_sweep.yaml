@@ -20,21 +20,17 @@
 
 - tocks: 1
   lights:
-    l_outlane_right: 00
-    l_outlane_left: ff
+    l_scoop_center_arrow_1: 00
+    l_scoop_center_arrow_4: ff
 - tocks: 1
   lights:
-    l_outlane_left: 00
-    l_inlane_left: ff
+    l_scoop_center_arrow_4: 00
+    l_scoop_center_arrow_3: ff
 - tocks: 1
   lights:
-    l_outlane_left: 00
-    l_inlane_right: ff
-    l_kickback: ff
+    l_scoop_center_arrow_3: 00
+    l_scoop_center_arrow_2: ff
 - tocks: 1
   lights:
-    l_inlane_right: 00
-    l_kickback: 00
-    l_outlane_right: ff
-
-
+    l_scoop_center_arrow_2: 00
+    l_scoop_center_arrow_1: ff

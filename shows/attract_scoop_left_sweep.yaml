@@ -20,49 +20,13 @@
 
 - tocks: 1
   lights:
-    l_circle_1: ff
-    l_circle_7: 0
+    l_scoop_left_arrow_1: 00
+    l_scoop_left_arrow_3: ff
 - tocks: 1
   lights:
-    l_circle_2: ff
-    l_circle_8: 0
+    l_scoop_left_arrow_3: 00
+    l_scoop_left_arrow_2: ff
 - tocks: 1
   lights:
-    l_circle_3: ff
-    l_circle_9: 0
-- tocks: 1
-  lights:
-    l_circle_4: ff
-    l_circle_10: 0
-- tocks: 1
-  lights:
-    l_circle_5: ff
-    l_circle_11: 0
-- tocks: 1
-  lights:
-    l_circle_6: ff
-    l_circle_12: 0
-- tocks: 1
-  lights:
-    l_circle_7: ff
-    l_circle_1: 0
-- tocks: 1
-  lights:
-    l_circle_8: ff
-    l_circle_2: 0
-- tocks: 1
-  lights:
-    l_circle_9: ff
-    l_circle_3: 0
-- tocks: 1
-  lights:
-    l_circle_10: ff
-    l_circle_4: 0
-- tocks: 1
-  lights:
-    l_circle_11: ff
-    l_circle_5: 0
-- tocks: 1
-  lights:
-    l_circle_12: ff
-    l_circle_6: 0
+    l_scoop_left_arrow_2: 00
+    l_scoop_left_arrow_1: ff

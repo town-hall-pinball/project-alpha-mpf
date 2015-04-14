@@ -20,21 +20,10 @@
 
 - tocks: 1
   lights:
-    l_outlane_right: 00
-    l_outlane_left: ff
+    l_uturn_right_arrow: ff
 - tocks: 1
   lights:
-    l_outlane_left: 00
-    l_inlane_left: ff
-- tocks: 1
-  lights:
-    l_outlane_left: 00
-    l_inlane_right: ff
-    l_kickback: ff
-- tocks: 1
-  lights:
-    l_inlane_right: 00
-    l_kickback: 00
-    l_outlane_right: ff
+    l_uturn_right_arrow: 00
+
 
 

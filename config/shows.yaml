@@ -23,20 +23,88 @@ ShowPlayer:
         - show: attract
           repeat: yes
           tocks_per_sec: 1
-#        - show: all
-#          repeat: yes
-#          tocks_per_sec: 2.5
-        - show: attract_circle_sweep
+        - show: attract_center_white_cycle
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_circle_cycle
           repeat: yes
           tocks_per_sec: 5
         - show: attract_lane_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_orbit_left_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_orbit_right_alternate
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_ramp_left_sign_alternate
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_ramp_left_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_ramp_right_circle_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_saucer_alternate
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_scoop_center_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_scoop_left_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_standup_alternate
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_toy_blink
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_uturn_left_sweep
+          repeat: yes
+          tocks_per_sec: 5
+        - show: attract_uturn_right_blink
           repeat: yes
           tocks_per_sec: 5
     machineflow_Attract_stop:
         - show: attract
           action: stop
+        - show: attract_center_white
+          action: stop
         - show: attract_circle_sweep
           action: stop
         - show: attract_lane_sweep
           action: stop
+        - show: attract_orbit_left
+          action: stop
+        - show: attract_orbit_right_alternate
+          action: stop
+        - show: attract_ramp_left_sign_alternate
+          action: stop
+        - show: attract_ramp_left_sweep
+          action: stop
+        - show: attract_ramp_right_circle_sweep
+          action: stop
+        - show: attract_saucer_alternate
+          action: stop
+        - show: attract_scoop_center_sweep
+          action: stop
+        - show: attract_scoop_left_sweep
+          action: stop
+        - show: attract_standup_alternate
+          action: stop
+        - show: attract_toy_blink
+          action: stop
+        - show: attract_uturn_left_sweep
+          action: stop
+        - show: attract_uturn_right_blink
+          action: stop
+
+
+
+
+
+
 

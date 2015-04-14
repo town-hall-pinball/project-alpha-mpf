@@ -20,21 +20,17 @@
 
 - tocks: 1
   lights:
-    l_outlane_right: 00
-    l_outlane_left: ff
+    l_playfield_center: 00
+    l_playfield_left: ff
 - tocks: 1
   lights:
-    l_outlane_left: 00
-    l_inlane_left: ff
+    l_playfield_left: 00
+    l_playfield_center: ff
 - tocks: 1
   lights:
-    l_outlane_left: 00
-    l_inlane_right: ff
-    l_kickback: ff
+    l_playfield_center: 00
+    l_playfield_right: ff
 - tocks: 1
   lights:
-    l_inlane_right: 00
-    l_kickback: 00
-    l_outlane_right: ff
-
-
+     l_playfield_right: 00
+     l_playfield_center: ff
