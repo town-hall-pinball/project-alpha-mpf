@@ -20,38 +20,19 @@
 
 from mpf.system.scriptlet import Scriptlet
 
-class Assist(Scriptlet):
-
-    magnets = {
-        "s_magnet_left": "c_magnet_left",
-        "s_magnet_center": "c_magnet_center",
-        "s_magnet_right": "c_magnet_right"
-    }
+class Auto(Scriptlet):
 
     def on_load(self):
         self.machine.events.add_handler("ball_started", self.start)
         self.machine.events.add_handler("ball_ending", self.stop)
 
     def start(self, *args, **kwargs):
-        for switch, coil in self.magnets.items():
-            self.machine.platform.set_hw_rule(
-                switch,
-                "active",
-                coil,
-                coil_action_ms=-1,
-                pwm_on=1,
-                pwm_off=1
-            )
-            self.machine.platform.set_hw_rule(
-                switch,
-                "inactive",
-                coil,
-                coil_action_ms=0
-            )
+        self.machine.platform.set_hw_rule(
+            "s_kickback"
+            "active",
+            "c_kickback",
+            pulse_ms=20,
+        )
 
     def stop(self, *args, **kwargs):
-        for switch in self.magnets:
-            self.machine.platform.clear_hw_rule(switch)
-
-
-
+        self.machine.platform.clear_hw_rule("s_kickback")
