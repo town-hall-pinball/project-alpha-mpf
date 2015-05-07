@@ -39,7 +39,7 @@ chown vagrant:vagrant /opt
 cd /opt
 if [ ! -d mpf ] ; then
     sudo -u vagrant \
-        git clone --branch thp https://github.com/town-hall-pinball/mpf.git
+        git clone --branch base https://github.com/town-hall-pinball/mpf.git
 fi
 if [ ! -d mpf/machine_files/$NAME ] ; then
     sudo -u vagrant ln -s /vagrant mpf/machine_files/$NAME

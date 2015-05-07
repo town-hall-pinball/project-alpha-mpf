@@ -63,9 +63,6 @@ Keyboard:
         switch: s_tilt_slam
     shift-ctrl-x:
         event: action_shutdown
-        params:
-            foo: foo
-
 
 
 
